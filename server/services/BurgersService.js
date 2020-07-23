@@ -20,4 +20,3 @@ class BurgersService {
 }
 
 export const burgersService = new BurgersService();
-export const whatevs = {}

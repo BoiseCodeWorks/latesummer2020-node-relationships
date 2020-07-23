@@ -1,4 +1,4 @@
-import { Schema, SchemaTypes } from "mongoose";
+import { Schema } from "mongoose";
 
 const Size = new Schema(
     {

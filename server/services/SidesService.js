@@ -13,6 +13,7 @@ class SidesService {
     async find(query = {}) {
         return await dbContext.Sides.find(query).populate("size");
     }
+
     async findById(id) {
         let side = await dbContext.Sides.findById(id).populate("size");
         if (!side) {
